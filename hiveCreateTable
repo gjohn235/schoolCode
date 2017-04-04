@@ -1,0 +1,44 @@
+1,Mark,30,GEOG
+2,John,33,GEOG
+3,Penny,20,GEOG
+4,Jimmy,40,GEOG
+
+
+create table test(
+id int,
+name string,
+age int,
+dept string
+)
+ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY ','
+
+
+create table t_stu(
+userid int,
+name string,
+age int,
+classid int
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+
+
+create table t_class(
+cid int,
+name string,
+teacher string,
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+
+
+student table data
+
+1,mike,40,788
+2,lucy,20,788
+3,jim,33,376
+
+
+class table data
+
+788,hadoop,hai
+376,python,ruibo
