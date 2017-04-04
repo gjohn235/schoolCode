@@ -1,6 +1,6 @@
 package friends;
 public class Index //Adding Users into our social network
-{ //Grant DeVaughn Johnson III, 111655526, zskins26, 201
+{
 private User[] index;
 
   public Index()
